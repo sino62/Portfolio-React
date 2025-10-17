@@ -1,0 +1,29 @@
+/* Header */
+
+.custom-navbar {
+  padding: 10px 30px;
+  border-bottom: 1px solid #222;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+
+.menu-thin .nav-link {
+  color: #bfbfbf ;
+  font-size: 13px;
+  margin-left: 20px;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+  transition: color .25s ease, text-decoration-color .25s ease;
+}
+
+
+.menu-thin .nav-link:hover,
+.menu-thin .nav-link.active {
+  color: #fff ;
+  text-decoration: underline;
+  font-weight: 600;
+  
+}
+
