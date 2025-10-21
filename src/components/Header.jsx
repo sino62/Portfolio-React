@@ -22,19 +22,19 @@ export default function Header() {
 
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto menu-thin">
-            <NavLink className="nav-link active" aria-current="page" to="#">
+            <NavLink className="nav-link active" aria-current="page" to="/">
               HOME
             </NavLink>
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/services">
               SERVICES
             </NavLink>
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/portfolio">
               PORTFOLIO
             </NavLink>
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/contact">
               CONTACT
             </NavLink>
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/mentions legales">
               MENTIONS LÉGALES
             </NavLink>
           </div>

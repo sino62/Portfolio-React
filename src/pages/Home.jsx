@@ -4,12 +4,14 @@ export default function Home() {
   return (
     <main>
       <section
-        className="text-center text-light bg-dark py-5"
+        className="hero-img text-center text-light py-5 d-flex align-items-center justify-content-center"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=1600&q=80')",
+          backgroundImage: "url('/images/hero-bg.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
+          minHeight: "100vh",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "scroll",
         }}
       >
         <div className="container py-5">
@@ -30,7 +32,7 @@ export default function Home() {
                   À propos
                 </h5>
                 <img
-                  src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80"
+                  src="/images/john-doe-about.jpg"
                   alt="John Doe"
                   className="img-fluid rounded mb-3"
                 />

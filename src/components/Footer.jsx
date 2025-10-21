@@ -37,17 +37,17 @@ export default function Footer() {
             <h5 className="mb-3">Liens utiles</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <Link className="nav-link p-0 text-secondary" to="#">
+                <Link className="nav-link p-0 text-secondary" to="/">
                   Accueil
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link className="nav-link p-0 text-secondary" to="#">
+                <Link className="nav-link p-0 text-secondary" to="/services">
                   Services
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link className="nav-link p-0 text-secondary" to="#">
+                <Link className="nav-link p-0 text-secondary" to="/portfolio">
                   Portfolio
                 </Link>
               </li>
