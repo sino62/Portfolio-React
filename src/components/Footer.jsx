@@ -21,13 +21,25 @@ export default function Footer() {
               </li>
             </ul>
             <div className="d-flex gap-3">
-              <a href="#" className="text-secondary fs-5">
+              <a
+                href="https://www.linkedin.com/"
+                className="text-secondary fs-5 social-link"
+                target="_blank"
+              >
                 <i className="bi bi-linkedin"></i>
               </a>
-              <a href="#" className="text-secondary fs-5">
+              <a
+                href="https://twitter.com/"
+                className="text-secondary fs-5 social-link"
+                target="_blank"
+              >
                 <i className="bi bi-twitter-x"></i>
               </a>
-              <a href="#" className="text-secondary fs-5">
+              <a
+                href="https://github.com/"
+                className="text-secondary fs-5 social-link"
+                target="_blank"
+              >
                 <i className="bi bi-github"></i>
               </a>
             </div>
@@ -52,12 +64,15 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link className="nav-link p-0 text-secondary" to="#">
+                <Link className="nav-link p-0 text-secondary" to="/contact">
                   Me contacter
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link className="nav-link p-0 text-secondary" to="#">
+                <Link
+                  className="nav-link p-0 text-secondary"
+                  to="/mentions legales"
+                >
                   Mentions légales
                 </Link>
               </li>
@@ -68,48 +83,36 @@ export default function Footer() {
             <h5 className="mb-3">Mes dernières réalisations</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a className="nav-link p-0 text-secondary" href="#">
+                <a className="nav-link p-0 text-secondary" href="/portfolio">
                   Fresh Food
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a className="nav-link p-0 text-secondary" href="#">
+                <a className="nav-link p-0 text-secondary" href="/portfolio">
                   Restaurant Akira
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a className="nav-link p-0 text-secondary" href="#">
+                <a className="nav-link p-0 text-secondary" href="/portfolio">
                   Espace bien-être
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a className="nav-link p-0 text-secondary" href="#">
+                <a className="nav-link p-0 text-secondary" href="/portfolio">
                   SEO
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a className="nav-link p-0 text-secondary" href="#">
+                <a className="nav-link p-0 text-secondary" href="/portfolio">
                   Création d’une API
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a className="nav-link p-0 text-secondary" href="#">
+                <a className="nav-link p-0 text-secondary" href="/portfolio">
                   Maquette d’un site
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
-
-        <hr className="border-secondary my-4" />
-        <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center pb-3">
-          <div className="mt-3 mt-sm-0">
-            <a href="#" className="text-secondary fs-5 me-3">
-              <i className="bi bi-instagram"></i>
-            </a>
-            <a href="#" className="text-secondary fs-5">
-              <i className="bi bi-facebook"></i>
-            </a>
           </div>
         </div>
       </div>

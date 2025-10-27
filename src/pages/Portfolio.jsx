@@ -26,7 +26,7 @@ export default function Portfolio() {
       <section className="container pb-5">
         <div className="row g-4">
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm card-fresh">
               <img
                 src="/images/fresh-food.jpg"
                 className="card-img-top"
@@ -52,11 +52,11 @@ export default function Portfolio() {
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm card-restaurant">
               <img
                 src="/images/restaurant-japonais.jpg"
                 className="card-img-top"
-                alt="Fresh Food"
+                alt="Restaurant Japonais"
               />
 
               <div className="card-body text-center">
@@ -78,11 +78,11 @@ export default function Portfolio() {
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm card-espace">
               <img
                 src="/images/espace-bien-etre.jpg"
                 className="card-img-top"
-                alt="Fresh Food"
+                alt="Espace bien-être"
               />
 
               <div className="card-body text-center">
@@ -104,11 +104,11 @@ export default function Portfolio() {
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm card-seo">
               <img
                 src="/images/seo.jpg"
                 className="card-img-top"
-                alt="Fresh Food"
+                alt="SEO site web"
               />
 
               <div className="card-body text-center">
@@ -130,11 +130,11 @@ export default function Portfolio() {
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm card-api">
               <img
                 src="/images/coder.jpg"
                 className="card-img-top"
-                alt="Fresh Food"
+                alt="Création d'une API"
               />
 
               <div className="card-body text-center">
@@ -154,11 +154,11 @@ export default function Portfolio() {
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm card-maquette">
               <img
                 src="/images/screens.jpg"
                 className="card-img-top"
-                alt="Fresh Food"
+                alt="Maquette d'un site Web"
               />
 
               <div className="card-body text-center">

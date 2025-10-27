@@ -28,8 +28,8 @@ export default function Services() {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card h-100 shadow-sm">
               <div className="card-body text-center">
-                <div className="display-6 text-primary mb-3">
-                  <i className="bi bi-pencil"></i>
+                <div className="d-flex justify-content-center align-items-center mb-3">
+                  <i className="bi bi-feather display-6 text-primary"></i>
                 </div>
                 <h5 className="card-title fw-semibold">UX Design</h5>
                 <p className="card-text text-body-secondary">
@@ -43,9 +43,9 @@ export default function Services() {
 
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card h-100 shadow-sm">
-              <div className="card-body text-center">
-                <div className="display-6 text-primary mb-3">
-                  <i className="bi bi-code-slash"></i>
+              <div className="card-body text-center2">
+                <div className="d-flex justify-content-center align-items-center mb-3">
+                  <i className="bi bi-code-slash display-6 text-primary"></i>
                 </div>
                 <h5 className="card-title fw-semibold">Développement web</h5>
                 <p className="card-text text-body-secondary">
@@ -59,10 +59,11 @@ export default function Services() {
 
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card h-100 shadow-sm">
-              <div className="card-body text-center">
-                <div className="display-6 text-primary mb-3">
-                  <i className="bi bi-search"></i>
+              <div className="card-body text-center3">
+                <div className="d-flex justify-content-center align-items-center mb-3">
+                  <i className="bi bi-search display-6 text-primary"></i>
                 </div>
+
                 <h5 className="card-title fw-semibold">Référencement (SEO)</h5>
                 <p className="card-text text-body-secondary">
                   Optimisations techniques, contenu et performances pour

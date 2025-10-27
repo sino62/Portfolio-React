@@ -1,6 +1,12 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import GithubModal from "./GithubModal";
 
 export default function Home() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOpenModal = () => setShowModal(true);
+  const handleCloseModal = () => setShowModal(false);
   return (
     <main>
       <section
@@ -17,10 +23,14 @@ export default function Home() {
         <div className="container py-5">
           <h1 className="display-5 fw-bold">Bonjour, je suis Sinan Tongac</h1>
           <p className="lead mb-4">Développeur web full stack</p>
-          <Link to="#" className="btn btn-primary btn-lg px-4">
+          <button
+            onClick={handleOpenModal}
+            className="btn btn-primary btn-lg px-4"
+          >
             En savoir plus
-          </Link>
+          </button>
         </div>
+        <GithubModal show={showModal} handleClose={handleCloseModal} />
       </section>
 
       <section className="container my-5">
